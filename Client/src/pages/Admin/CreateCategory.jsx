@@ -12,7 +12,7 @@ const CreateCategory = () => {
   const [selected, setSelected] = useState(null);
   const [updatedName, setUpdatedName] = useState("");
   //handle Form
-  const URL = window.location.origin;
+  const URL = "https://e-commerce-liard-delta.vercel.app";
 
   const handleSubmit = async (e) => {
     e.preventDefault();

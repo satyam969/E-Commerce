@@ -9,7 +9,7 @@ export default function PrivateRoute() {
   const [auth, setAuth] = useAuth();
   console.log("auth",auth);
 
-  const URI = window.location.origin;
+  const URL = "https://e-commerce-liard-delta.vercel.app";
 
   useEffect(() => {
     const authCheck = async () => {

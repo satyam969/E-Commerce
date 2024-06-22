@@ -12,7 +12,8 @@ const Register = () => {
   const [address, setAddress] = useState("");
   const [answer, setAnswer] = useState("");
   const navigate = useNavigate();
-  const URI = window.location.origin;
+
+const URI = "https://e-commerce-liard-delta.vercel.app";
 
 
 

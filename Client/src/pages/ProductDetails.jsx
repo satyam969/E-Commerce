@@ -10,7 +10,8 @@ const ProductDetails = () => {
     const params=useParams();
     const [related,setRelated]=useState([]);
 const navigate=useNavigate();
-const URI = window.location.origin;
+
+const URI = "https://e-commerce-liard-delta.vercel.app";
 
     // initial deatial 
 const getProduct=async()=>{

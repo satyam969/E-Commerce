@@ -28,7 +28,7 @@ const navigate=useNavigate();
 
 
 
-const URI = window.location.origin;
+const URI = "https://e-commerce-liard-delta.vercel.app";
 
 const totalprice=()=>{
 

@@ -8,7 +8,7 @@ const Search = () => {
 
     const [values,setValues]=useSearch();
 
-    const URI = window.location.origin;
+    const URI = "https://e-commerce-liard-delta.vercel.app";
 
   return (
     <Layout title={'search results'}>

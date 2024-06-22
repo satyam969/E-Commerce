@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 const useCategory = () => {
 const [categories,setCategories]=useState([]);
 
-const URI = window.location.origin;
+const URI = "https://e-commerce-liard-delta.vercel.app";
 
 
 

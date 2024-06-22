@@ -12,7 +12,7 @@ const ForgotPasssword = () => {
 
   const navigate = useNavigate();
 
-  const URI = window.location.origin;
+  const URL = "https://e-commerce-liard-delta.vercel.app";
 
 
   // form function

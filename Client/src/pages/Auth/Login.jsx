@@ -11,7 +11,7 @@ const Login = () => {
   const [auth, setAuth] = useAuth();
 
 
-  const URI = window.location.origin;
+  const URI = "https://e-commerce-liard-delta.vercel.app";
 
 
   const navigate = useNavigate();

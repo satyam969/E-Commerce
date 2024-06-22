@@ -15,7 +15,7 @@ const Profile = () => {
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
 
-  const URI = window.location.origin;
+  const URI = "https://e-commerce-liard-delta.vercel.app";
 
   const handleSubmit = async (e) => {
     e.preventDefault();

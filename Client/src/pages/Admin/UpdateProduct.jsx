@@ -25,7 +25,7 @@ const [id,setId]=useState("");
 const params=useParams();
 
     
-const URI = window.location.origin;
+const URI = "https://e-commerce-liard-delta.vercel.app";
 
 
 

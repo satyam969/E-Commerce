@@ -25,7 +25,7 @@ import toast from "react-hot-toast";
 const HomePage = () => {
 
   // const URI = import.meta.env.REACT_APP_API;
-const URI = window.location.origin;
+const URI = "https://e-commerce-liard-delta.vercel.app";
 
 
   const [products, setProducts] = useState([]);

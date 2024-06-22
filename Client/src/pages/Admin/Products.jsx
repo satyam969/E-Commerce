@@ -8,7 +8,7 @@ const Products = () => {
 
    const [products,setProducts]=useState([]);
 
-   const URI = window.location.origin;
+   const URI = "https://e-commerce-liard-delta.vercel.app";
 
    const getAllProducts=async()=>{
 
