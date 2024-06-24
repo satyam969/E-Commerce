@@ -10,7 +10,7 @@ const productRoutes=require("./routes/product-routes");
 const app=express();
 
 const corsOptions={
-    origin:"https://e-commerce-front-git-main-priya-rajs-projects-52cd4eb0.vercel.app",
+    origin:"https://e-commerce-front-tawny.vercel.app",
     methods:"GET,POST,PUT,DELETE,PATCH,HEAD",
     credentials:true,
 }
