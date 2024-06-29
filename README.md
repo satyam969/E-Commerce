@@ -8,12 +8,19 @@ Check out the live project .
 https://e-commerce-front-tawny.vercel.app
 
 Features
+
 User Authentication: Secure login and registration using JWT tokens.
+
 Product Filtering and Searching: Users can filter products by price and categories, and search for various products.
+
 Product Details: Detailed view of each product, including similar product recommendations.
+
 Admin Panel: Admin interface for managing products, categories, orders, and users.
+
 Payment Integration: Secure payment processing using Braintree.
+
 File Uploads: Product images are uploaded and stored in the MongoDB database via the file system.
+
 Technologies Used
 Frontend: React, Bootstrap, Ant Design, Material-UI
 Backend: Node.js, Express.js
