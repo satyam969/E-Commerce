@@ -298,6 +298,7 @@ const URI = "https://e-commerce-liard-delta.vercel.app";
           <h1 className="text-centre">All Products</h1>
           <div className="d-flex flex-wrap">
 
+            {loading? "loading product ": ""}
 
             {products?.map((p) => (
               <div className="card" key={p._id} style={{ width: '18rem' }}>
